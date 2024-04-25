@@ -1,0 +1,12 @@
+{
+  "name": "typescript-msw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:psech/typescript-msw.git",
+  "author": "Przemek Sech",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "msw": "^2.2.14"
+  }
+}
