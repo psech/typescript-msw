@@ -1,5 +1,4 @@
-const world = "world";
+import { sum } from "./modules/sum";
 
-export function hello(who: string = world): string {
-  return `Hello ${who}! `;
-}
+const total = sum(2, 3);
+console.log(total);
