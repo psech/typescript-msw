@@ -1,12 +1,7 @@
 import { server } from "./mocks/node";
+import { getCountry } from "./modules/restcountries";
 
 server.listen();
 
-async function app() {
-  const response = await fetch("https://example.com/pokemon");
-  const pokemon = await response.json();
-
-  console.log(pokemon);
-}
-
-app();
+const countryDetails = await getCountry("poland");
+console.log(countryDetails);
